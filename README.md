@@ -13,18 +13,18 @@ Headless-ready WordPress setup
 
 
 ##  Structure
-theme/
-inc/
-api/
-functions.php
+- theme/
+- inc/
+- api/
+- functions.php
 
 ## Architecture Overview
-Theme_Bootstrap - Loads theme system
-Api_Bootstrap - Loads API system
-routes.php - Registers REST routes
-requests/ - Contains API logic
-Response.php - Standard API response structure
-Options_Page - Manages Site Settings via ACF Options Page
+- Theme_Bootstrap - Loads theme system
+- Api_Bootstrap - Loads API system
+- routes.php - Registers REST routes
+- requests/ - Contains API logic
+- Response.php - Standard API response structure
+- Options_Page - Manages Site Settings via ACF Options Page
 
 ## How to Setup
 
